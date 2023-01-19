@@ -1,15 +1,14 @@
 package jm.task.core.jdbc.util;
 
-import com.mysql.fabric.jdbc.FabricMySQLDriver;
+import com.mysql.jdbc.Driver;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 
 public class Util {
     private final static String DB_URL = "jdbc:mysql://localhost:3306/user_database";
     private final static String DB_NAME = "root";
-    private final static String DB_PASS = "root";
+    private final static String DB_PASS = "12345";
     private static Connection connection;
 
     public static Connection getConnection() {
