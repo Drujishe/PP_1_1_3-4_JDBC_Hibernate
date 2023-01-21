@@ -1,6 +1,4 @@
-#directories
-target/
-.idea/
+target
+.idea
 
-# files
-/.gitignore
+.gitignore
